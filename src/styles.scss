@@ -1,0 +1,25 @@
+/* styles.css */
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    "header header header"
+    "sidebar main-content main-content"
+    "footer footer footer";
+  grid-template-columns: auto auto auto; /* Adjust column widths as needed */
+  grid-template-rows: auto 1fr auto; /* Adjust row heights as needed */
+  min-height: 100vh; /* Ensure container fills the viewport height */
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.title {
+  grid-area: title;
+  font-size: 40px; /* Adjust title font size */
+}

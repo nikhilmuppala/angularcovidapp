@@ -1,0 +1,71 @@
+<!-- app.component.html -->
+
+  <!-- app.component.html -->
+
+ <!-- app.component.html -->
+<!-- app.component.html -->
+<!-- app.component.html -->
+<!-- app.component.html -->
+<!-- app.component.html -->
+<!-- app.component.html -->
+
+<div class="grid-container">
+  <div class="covid-details">
+    <div class="grid-item horizontal-line">Covid Details</div>
+  </div>
+  <div class="patient-details">
+    <div class="grid-item horizontal-line">Patient Details</div>
+  </div>
+  <div class="search">
+    <app-search></app-search>
+  </div>
+</div>
+
+
+
+
+
+
+<style>
+  /* styles.css */
+/* styles.css */
+/* styles.css */
+/* styles.css */
+/* styles.css */
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; /* Three equal-width columns */
+  grid-gap: 10px; /* Spacing between grid items */
+  background-color: whitesmoke;
+  padding: 10px;
+}
+
+.covid-details {
+  grid-column: 1 / span 3; /* Span across all three columns */
+  background-color: lightblue;
+
+}
+
+.patient-details {
+  grid-column: 1 / span 1; /* Span across two columns */
+  
+}
+
+.search {
+  grid-column: 2; /* Last column */
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.horizontal-line {
+  border-bottom: 1px solid black; /* Add horizontal line */
+}
+
+  </style>

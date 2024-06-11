@@ -1,0 +1,17 @@
+/* styles.css */
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two equal-width columns */
+    gap: 20px; /* Spacing between grid items */
+  }
+  
+  .grid-item {
+    padding: 20px;
+  }
+  
+  .title {
+    grid-column: 1 / span 2; /* Span across two columns */
+  }
+  
+  
+  

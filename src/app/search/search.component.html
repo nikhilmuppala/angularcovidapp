@@ -1,0 +1,8 @@
+<div>
+  <input type="text" [(ngModel)]="searchTerm" placeholder="Search for patient">
+  <button kendoButton (click)="search()">Search</button>
+</div>
+<div *ngIf="patientDetails">
+  <h2>Patient Details</h2>
+  <pre>{{ patientDetails | json }}</pre>
+</div>
